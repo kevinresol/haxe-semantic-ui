@@ -1,0 +1,16 @@
+{
+  "name": "semantic-ui",
+  "license": "MIT",
+  "tags": [
+    "semantic",
+    "ui",
+    "js"
+  ],
+  "classPath": "src",
+  "contributors": [
+    "kevinresol"
+  ],
+  "releasenote": "initial release",
+  "version": "0.0.0",
+  "dependencies": {}
+}
