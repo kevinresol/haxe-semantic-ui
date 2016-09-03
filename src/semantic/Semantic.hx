@@ -1,9 +1,17 @@
 package semantic;
 
-import js.jquery.JQuery;
-import haxe.extern.Rest;
-
-extern class Semantic {
-	@:overload(function(j:JQuery, action:String, params:Rest<Dynamic>):JQuery {})
-	public static function sidebar(j:JQuery, options:Dynamic):JQuery;
+extern class Semantic implements js.jquery.Plugin {
+	
+	@:overload
+	public function sidebar(?options:{}):JQuery;
+	
+	@:overload
+	public function sidebar(action:String, params:haxe.extern.Rest<String>):JQuery;
+	
+	@:overload
+	public function dropdown(?options:{}):JQuery;
+	
+	@:overload
+	public function dropdown(action:String, params:haxe.extern.Rest<String>):JQuery;
+	
 }
