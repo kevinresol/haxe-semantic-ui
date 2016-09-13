@@ -14,4 +14,7 @@ extern class Semantic implements js.jquery.Plugin {
 	@:overload
 	public function dropdown(action:String, params:haxe.extern.Rest<String>):JQuery;
 	
+	@:overload
+	public function form(?options:{}):JQuery;
+	
 }
