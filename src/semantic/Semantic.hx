@@ -17,4 +17,7 @@ extern class Semantic implements js.jquery.Plugin {
 	@:overload
 	public function form(?options:{}):JQuery;
 	
+	@:overload
+	public function accordion(?options:{}):JQuery;
+	
 }
