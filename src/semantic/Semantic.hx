@@ -21,6 +21,12 @@ extern class Semantic implements js.jquery.Plugin {
 	public function checkbox(action:String, params:haxe.extern.Rest<String>):JQuery;
 	
 	@:overload
+	public function search(?options:{}):JQuery;
+	
+	@:overload
+	public function search(action:String, params:haxe.extern.Rest<String>):JQuery;
+	
+	@:overload
 	public function form(?options:{}):JQuery;
 	
 	@:overload
