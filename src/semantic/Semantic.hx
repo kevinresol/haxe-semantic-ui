@@ -30,6 +30,9 @@ extern class Semantic implements js.jquery.Plugin {
 	public function form(?options:{}):JQuery;
 	
 	@:overload
+	public function form(action:String, params:haxe.extern.Rest<Dynamic>):JQuery;
+	
+	@:overload
 	public function accordion(?options:{}):JQuery;
 	
 	@:overload
