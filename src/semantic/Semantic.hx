@@ -32,4 +32,10 @@ extern class Semantic implements js.jquery.Plugin {
 	@:overload
 	public function accordion(?options:{}):JQuery;
 	
+	@:overload
+	public function transition(?options:{}):JQuery;
+	
+	@:overload
+	public function transition(action:String, params:haxe.extern.Rest<Dynamic>):JQuery;
+	
 }
