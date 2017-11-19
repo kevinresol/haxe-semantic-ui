@@ -41,4 +41,10 @@ extern class Semantic implements js.jquery.Plugin {
 	@:overload
 	public function transition(action:String, params:haxe.extern.Rest<Dynamic>):JQuery;
 	
+	@:overload
+	public function sticky(?options:{}):JQuery;
+	
+	@:overload
+	public function sticky(action:String, params:haxe.extern.Rest<Dynamic>):JQuery;
+	
 }
