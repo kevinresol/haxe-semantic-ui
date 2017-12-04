@@ -53,4 +53,10 @@ extern class Semantic implements js.jquery.Plugin {
 	@:overload
 	public function rating(action:String, params:haxe.extern.Rest<Dynamic>):JQuery;
 	
+	@:overload
+	public function modal(?options:{}):JQuery;
+	
+	@:overload
+	public function modal(action:String, params:haxe.extern.Rest<Dynamic>):JQuery;
+	
 }
